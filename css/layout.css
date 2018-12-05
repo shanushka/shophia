@@ -1,0 +1,275 @@
+.header-top{
+    background-color:#f2f2f2;
+}
+.wrapper{
+    width:100%;
+
+}
+.headertop-right ul{
+display: none;
+}
+
+.headertop-left{
+    float:left;
+    margin: 2px;
+    width:150px;
+
+}
+.headertop-left span{
+    padding:2px 19px 0 7px;
+}
+
+.headertop-right{
+    float:right;
+    /* width:20px; */
+
+}
+.headertop-right img{
+    width:18px;
+    height:18px;
+    margin: 2px 10px;
+}
+/* 
+.header-bottom.wrapper{
+    width:100%
+} */
+
+.headerbottom-left ul{
+    /* //width:30%; */
+    display: none;
+}
+
+.headerbottom-left img{
+    width:20px;
+    height:20px;
+    margin: 10px 10px;
+    float:left;
+}
+.shopia-logo {
+    width:17.674419%;
+    display: block;
+    margin: 12px auto;
+}
+
+.headerbotttom-right{
+    display:none;
+}
+.dropDown {
+    
+    position: relative;
+}
+
+.dropDown button{
+    background-color: #000000;
+    display: block;
+    border:none;
+    line-height: 35px;
+    width:100%;
+}
+
+.dropDown img{
+    position: absolute;
+    right:11px;
+    top:14px;
+    height:4px;
+    width:8px;
+}
+.carousel-image{
+    position: relative;
+}
+.carousel-image img{
+    object-fit: cover;
+    width: 100%;
+    /* height: 100%; */
+}
+.sale{
+    position: absolute;
+    top:30px;
+    right:39.0625%;
+    width:18.958333%;
+    border:2px solid white;
+    margin:0px auto;
+
+}
+
+.subsale{
+    border:1px solid white;
+    width:85%;
+    margin:7px auto;
+    padding :25px 2px;
+
+}
+
+.btn-shopnow{
+    position: absolute;
+     bottom: 20px;
+    width:90px;
+    right:40.5%;
+    margin:0 auto;
+    display: block;
+}
+
+.btn-shop{
+    background-color: #f09d66;
+    border:none;
+    width:100%;
+    line-height: 20px;
+}
+
+.section-two{
+    margin:30px 0;
+   
+}
+
+.left,.right,.middle{
+    padding:10px 0;
+    width:100%;
+
+
+}
+.two div{
+    width:35px;
+    height:35px;
+    padding : 0px 20px;
+    float: left;
+}
+
+.two img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left,.right{
+background-color: #d9bf8f;
+}
+
+.middle{
+    background-color: #000000;
+
+}
+.section-three,.section-handpicked,.section-four,.section-four-content,.section-five,.section-five-content{
+    width:100%;
+}
+.section-title h2{
+    /* width:50%; */
+    margin:40px auto;
+
+    
+}
+.section-title h2:after,.section-title h2:before{
+    background : url('../images/diamond.png') no-repeat;
+    width:20px;
+    height:20px;
+    content : "";
+    display:inline-block;
+    /* padding: 0 20px; */
+    /* position: absolute; */
+
+ 
+
+}
+.collection-column img{
+    width:100%;
+}
+
+
+/* .section-title::before{
+    content: url(../images/border-left.png);
+
+}
+
+.section-title::after{
+    content: url(../images/border-left.png);
+
+} */
+
+.section-handpicked img,.section-four-content img{
+    width:100%;
+  margin:5px 0;
+}
+.handpickedtwo{
+    position: relative;
+    z-index: 0;
+}
+.image-text{
+    position: absolute;
+    top:30%;
+    z-index: 10;
+
+}
+.image-wrapper{
+    position: relative;
+
+}
+
+.product-button_cart{
+    background: url('../images/addtocart.png') no-repeat ;
+    border:none;
+    height: 60px;
+    /* width:70%; */
+    width:82%;
+    left:40px;
+    background-size: 100%;
+    position: absolute;
+    bottom: 8px;
+    background: contain;
+
+color:white;
+}
+/* .three-left-top{
+    position:relative;
+}
+.three-inside{
+    width:88.721805%;
+    position:absolute;
+    margin:0 auto;
+    border:3px solid white;
+} */
+
+.section-five-content img{
+    /* float:left; */
+    margin:0 150px;
+}
+/* .section-five-content ul{
+    margin-right:40px 50px;
+} */
+.section-six-content{
+    background-color: #d9bf8f;
+}
+.section-six img{
+    width:230px;
+    padding:20px 0;
+}
+.six-left-content{
+    width:40%;
+    float: right;
+    padding:50px 20px 0 0;
+}
+
+.six-left-content span{
+    display: block;
+}
+.name{
+    padding-top: 40px;
+}
+
+.footer{
+    background-color: #141414;
+}
+.footer-list,.footer-top-right{
+    padding:10px 0 10px 20px;
+}
+.icon{
+    padding:20px 0;
+}
+.icon img{
+    padding: 0 5px;
+}
+
+.clearfix{
+    overflow: auto;
+    clear:both;
+    content: "";
+    display: table;
+}

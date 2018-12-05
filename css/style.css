@@ -1,0 +1,72 @@
+li {
+    list-style:none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.subsale li{
+    text-align:center;
+}
+
+.footer a{
+color:#5a5a5a;
+font-size:18px;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.headertop-right a,.headertop-left{
+    font-family: 'Lato:400', sans-serif;
+    font-size:10px;
+    color:#454545;
+
+}
+
+.headerbottom-left a{
+    font-family: 'Playfair Display', serif;
+    font-size:18px;
+    color:#454545;
+}
+.shopia-logo a{
+   
+    color:#454545;
+
+}
+
+.subsale{
+    /* padding:31px 0 33px 0; */
+    font-size:19px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+.sale-black{
+    font-size:59px;
+    color:black;
+    display:block;
+    /* line-height:92px; */
+}
+
+.sale-off{
+    font-size:33.5px;
+    color:black;
+}
+
+.sec span{
+    font-size:30px;
+    font-family: 'Lato:700', sans-serif;
+
+}
+
+.sec{
+    font-size:14px;
+    color:white;
+    font-family: 'Lato:400', sans-serif;
+
+
+}

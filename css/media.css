@@ -1,0 +1,196 @@
+.container{
+min-width:90em;
+}
+
+.wrapper{
+  width:80.625em;
+  margin:0 auto;
+}
+.header-top{
+  line-height: 48px;
+
+}
+.headertop-right{
+  width:38.837209%;
+}
+.headertop-right ul,.headerbottom-left ul{
+  display: block;
+}
+.headertop-right li{
+  float:left;
+  background-image:url("../images/top-seperator.png");
+  background-repeat:no-repeat;
+  background-position: left;
+  padding:0 35px 0 32px;
+}
+
+.headertop-right li:first-child{
+  background-image:none;
+}
+.headertop-right li:last-child{
+  padding-right:0px;
+}
+.headertop-right img,.headerbottom-left img{
+  display:none;
+}
+.headerbottom-left{
+  float:left;
+
+  width:35.658914%;
+}
+.headerbottom-left li{
+float:left;
+padding:0 23px 0 5px;
+}
+
+.bottom-right{
+  width:57.829457%;
+  float:right;
+}
+
+.shopia-logo{
+  float:left;
+}
+.headerbotttom-right{
+  display: block;
+  width:44.235925%;
+  float:right;
+
+}
+
+.social-icon{
+  width:56.666667%;
+  float:left;
+
+}
+.social-icon li{
+  padding-left:12px;
+
+}
+.dropDown{
+  width:27.272727%;
+  float:right;
+ 
+
+}
+.social-icon li{
+  float:left;
+}
+.carousel-image img{
+height:692px;
+}
+
+.sale{
+  margin-top:141px;
+
+}
+
+.subsale{
+  width:94.139194%
+
+}
+
+.sale-black{
+  padding: 31px 0 24px 0
+}
+
+.sale-off{
+  display: block;
+  padding:24px 0;
+}
+
+/* section-two */
+
+.section-two{
+  margin-top:66px;
+} 
+
+.sec{
+  width:33.333333%;
+  float:left;
+  padding:14px 0 24px 0;
+}
+.sec div{
+  padding:14px 0 0 31px;
+}
+.middle div{
+  padding-left:53px;
+
+}
+.right div{
+  padding-left:61px;
+}
+.sec li{
+  padding: 6px 0 0 103px;
+}
+.middle li{
+  padding-left:118px;
+}
+.right li {
+  padding-left:142px;
+}
+.section-three{
+  padding-top:33px;
+}
+.section-title{
+  line-height: 161px;
+}
+
+/*section-three*/
+
+.handpicked-first{
+  width:30.697674%;
+  float:left;
+}
+.handpicked-first li,.handpicked-third li{
+  padding-bottom:8px;
+
+}
+
+.handpicked-right{
+  width:67.829457%;
+  float:right;
+}
+.handpicked-second img{
+  height:822px;
+}
+.handpicked-first img,.handpicked-third img{
+  height:400px;
+
+}
+
+.handpicked-second{
+  width:52.571429%;
+  float:left
+
+}
+
+.handpicked-third{
+  width:45.600000%;
+  float:right;
+}
+
+.section-four-content{
+  padding-top:8px;
+  border:1px solid #eaeaea;
+}
+
+.collection-column li{
+width:23.333333%;
+float:left;
+padding:8px 9px;
+
+}
+
+
+/*section-five*/
+
+.section-five{
+  padding-top:47px;
+}
+.section-five-content li{
+  float: left;
+  padding: 0 12px;
+  width:11.782946%;
+
+}
