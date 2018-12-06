@@ -241,13 +241,13 @@ color:white;
     width:230px;
     padding:20px 0;
 }
-.six-left-content{
+.six-content{
     width:40%;
     float: right;
     padding:50px 20px 0 0;
 }
 
-.six-left-content span{
+.six-content span{
     display: block;
 }
 .name{
@@ -264,8 +264,36 @@ color:white;
     padding:20px 0;
 }
 .icon img{
-    padding: 0 5px;
+    padding: 0 12px 0 4px;
 }
+.subscribe-btn{
+   margin-top:56px;
+    border:1px solid #b4aca9;
+    width:84.741784%    ;
+}
+.subscribe-btn input{
+width:60.003878%;
+background:transparent;
+border:none;
+padding:0 8px 0 22px;
+line-height:40px;
+}
+.subscribe-btn button{
+    border:none;
+    background-color:#484848;
+    line-height:33px;
+    width:27.977839%;
+    margin: 3px;
+}
+
+.copyright{
+    padding:27px 0 63px 0;
+}
+.payments-item{
+    float:left;
+    padding:0 10px 0 10px;
+  }
+
 
 .clearfix{
     overflow: auto;

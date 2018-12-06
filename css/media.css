@@ -35,6 +35,7 @@ min-width:90em;
 }
 .headerbottom-left{
   float:left;
+  line-height:128px;
 
   width:35.658914%;
 }
@@ -50,11 +51,13 @@ padding:0 23px 0 5px;
 
 .shopia-logo{
   float:left;
+  line-height:128px;
 }
 .headerbotttom-right{
   display: block;
   width:44.235925%;
   float:right;
+  line-height:128px;
 
 }
 
@@ -70,16 +73,17 @@ padding:0 23px 0 5px;
 .dropDown{
   width:27.272727%;
   float:right;
- 
+ }
 
-}
+ .dropDown button{
+margin:36px 0 0 0;
+ }
 .social-icon li{
   float:left;
 }
-.carousel-image img{
-height:692px;
+.carousel-image{
+  width:100%;
 }
-
 .sale{
   margin-top:141px;
 
@@ -193,4 +197,73 @@ padding:8px 9px;
   padding: 0 12px;
   width:11.782946%;
 
+}
+
+.section-five-content ul{
+padding:70px 0 0 0;
+
+}
+
+.section-six{
+  padding-top:83px;
+}
+
+.six{
+  width:43.410853%;
+
+}
+.six img{
+  width:260px;
+  padding-top:37px;
+}
+.sleft{
+  float:left;
+}
+
+.sright{
+  float:right;
+}
+
+.six-content{
+  width:51.250000%;
+  padding:135px 0 0 8px ;
+
+}
+
+.name{
+  padding-top:62px;
+}
+.profession{
+  padding-top:25px;
+}
+
+.footer-top{
+  width: 100%;
+  padding-top:70px;
+}
+.footer-list span{
+  display:block;
+  padding-bottom:56px;
+}
+.footer-top-left{
+  float:left;
+  width:53.488372%;
+}
+.footer-list{
+  float:left;
+  width:33.333333%;
+  padding:0;
+}
+.footer-top-right{
+  width:33.023256%;
+  float:right;
+  padding:0;
+}
+.footer-bottom{
+  padding-top:90px;
+  display:block;
+}
+
+.icon{
+  padding:50px 0;
 }
