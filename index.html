@@ -1,347 +1,440 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <link rel="stylesheet" type="text/css" href="css/layout.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/media.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400i" rel="stylesheet">
-        <title>Shophia</title>
-    </head>
-    <body>
-        <div class="header">
-            <div class ="header-top container">
-                <div class="header-tops wrapper clearfix">
-                    <div class="headertop-left ">
-                           <span><img src="images/phone-icon.png"></span> Call +001 555 801 
-                    </div>
-                    <div class="headertop-right">
-                        <ul>
-                            <li><a href="#">WELCOME MSG!</a></li>
-                            <li><a href="#">MY ACCOUNT</a></li>
-                            <li><a href="#">MY WISHLIST</a></li>
-                            <li><a href="#">LOGIN</a></li>
-
-                        </ul>
-                        <a href="#">
-                            <img src='images/burger.png'>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            <div class="header-bottom container">
-                <div class="header-bottom wrapper">
-                    <div class="headerbottom-left">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Categories</a></li>
-                            <li><a href="#">Pages</a></li>
-
-                        </ul>
-                        <a href="#">
-                                <img src='images/burger.png'>
-                        </a>
-                    </div>
-                    <div class="bottom-right">
-                        <div class="shopia-logo">
-                            <a href="#">Shophia</a>
-                        </div>
-                        <div class="headerbotttom-right">
-                            <div class="social-icon">
-                                <ul>
-                                    <li><a href="#"><img alt="facebook-icon" src="images/fb-header.png"></a></li>
-                                    <li><a href="#"><img alt="twiiter-icon" src="images/twitter.png"></a></li>
-                                    <li><a href="#"><img alt="pinterest-icon" src="images/pininterest.png"></a></li>
-                                    <li><a href="#"><img alt="instragam-icon" src="images/instagram.png"></a></li>
-                                </ul>
-                            </div>
-                            <div class="dropDown">
-                                <button >RUPIAH</button>
-                                <img src="images/dropdownBtn.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet.css"/>
+    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/media.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400i" rel="stylesheet" />
+    <title>Shophia</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-top container">
+        <div class="header-tops wrapper clearfix">
+          <div class="headertop-left ">
+            <span><img src="images/phone-icon.png"/></span> Call +001 555 801
+          </div>
+          <div class="headertop-right">
+            <ul>
+              <li><a href="#">WELCOME MSG!</a></li>
+              <li><a href="#">MY ACCOUNT</a></li>
+              <li><a href="#">MY WISHLIST</a></li>
+              <li><a href="#">LOGIN</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div class="header-bottom container">
+        <div class="header-bottom wrapper">
+          <div class="headerbottom-left">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Categories</a></li>
+              <li><a href="#">Pages</a></li>
+            </ul>
+           
+          </div>
 
-        <div class="main-body container">                
-            <div class="section-one ">
-                    <!-- <div class="section-ones container clearfix"> -->
-                <div class="carousel-image clearfix">
-                    <img src="images/top-background.png">
-                    <div class="sale clearfix">
-                        <div class="subsale ">
-                            <ul>
-                            <li>MID-SEASON</li>
-                            <li><span class="sale-black">SALE</span></li>
-                            <li><span class="sale-up">UP TO</span></li>
-                            <li><span class="sale-off">50% OFF</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="btn-shopnow clearfix">
-                        <button class="btn-shop">SHOP NOW</button>
-                    </div>
-                </div>
+          <div class="hamburger-hidden">
+                <img src="images/burger.png" onclick="onClickFunction()" />
+                <ul class="ham">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Categories</a></li>
+                  <li><a href="#">Pages</a></li>
+                </ul>
             </div>
+          <div class="bottom-right">
+            <div class="shopia-logo"><a href="#">Shophia</a></div>
+            <div class="headerbotttom-right">
+              <div class="social-icon">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img alt="facebook-icon" src="images/fb-header.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img alt="twiiter-icon" src="images/twitter.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img alt="pinterest-icon" src="images/pininterest.png"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img alt="instragam-icon" src="images/instagram.png"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="dropDown">
+                <select>
+                  <option value="0">RUPIAH</option>
+                  <option value="1">DOLLOR</option>
+                  <option value="2">EURO</option>
+                  <option value="3">YEN</option>
+                </select>
+                <!-- <img src="images/dropdownBtn.png" /> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-            <div class="main-body wrapper">
-                <div class="section-two">
-                    <ul class="two">
-                        <li class="sec left">
-                        <div><img src="images/aeroplane.png" alt="aeroplane"></div>
-                        <ul> 
-                           <li><span>FREE SHIPPING</span></li>
-                           <li>In Order Min $200</li>
-                       </ul>
-                        </li>
-                        <li class="sec middle">
-                            <div><img src="images/clock.png" alt="aeroplane"></div>
+    <div class="main-body container">
+      <div class="section-one ">
+        <!-- <div class="section-ones container clearfix"> -->
+        <div class="carousel-image clearfix">
+          <img src="images/top-background.png" />
+          <div class="sale clearfix">
+            <div class="subsale ">
+              <ul>
+                <li>MID-SEASON</li>
+                <li><span class="sale-black">SALE</span></li>
+                <li><span class="sale-up">UP TO</span></li>
+                <li><span class="sale-off">50% OFF</span></li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-shopnow clearfix">
+            <button class="btn-shop">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
 
-                        <ul>
-                            <li><span>30-DAYS RETURN</span></li>
-                            <li>Money Back Guarantee</li>
-                        </ul>
+      <div class="main-body wrapper">
+        <div class="section-two">
+          <ul class="two">
+            <li class="sec left">
+              <div><img src="images/aeroplane.png" alt="aeroplane" /></div>
+              <ul>
+                <li><span>FREE SHIPPING</span></li>
+                <li>In Order Min $200</li>
+              </ul>
+            </li>
+            <li class="sec middle">
+              <div><img src="images/clock.png" alt="aeroplane" /></div>
+
+              <ul>
+                <li><span>30-DAYS RETURN</span></li>
+                <li>Money Back Guarantee</li>
+              </ul>
+            </li>
+            <li class="sec right">
+              <div><img src="images/ball.png" alt="aeroplane" /></div>
+
+              <ul>
+                <li><span>FREE SHIPPING</span></li>
+                <li>Lifetime Support</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="section-three clearfix">
+          <div class="section-title "><h2>HandPicked</h2></div>
+            <div class="section-handpicked clearfix">
+              <div class="handpicked-left">
+                <div class="handpicked-first">
+                  <ul>
+                    <li>
+                      <img class="handpicked-small" src="images/handpicked-1.png" alt="handpicked-1"/>
+                      <div class="overlay">
+                        <img class="plus" src="images/plus.png" alt="plus" />
+                        <button class="overlay-btn">SHOP NOW</button>
+                      </div>
                     </li>
-                    <li class="sec right">
-                        <div><img src="images/ball.png" alt="aeroplane"></div>
-
-                        <ul>
-                            <li><span >FREE SHIPPING</span></li>
-                            <li>Lifetime Support</li>
-                        </ul>
+                    <li>
+                      <div class="handpickedtwo">
+                        <img class="handpicked-small" src="images/hand-2.png" alt="handpicked-2" />
+                        <div class="overlay">
+                          <div class="image-text-second"><span>DISCOUNT 30%</span> JEWELLERY PRODUCT</div>
+                          <img class="plus" src="images/plus.png" alt="plus" />
+                          <button class="overlay-btn">SHOP NOW</button>
+                        </div>
+                      </div>
                     </li>
-                    </ul>
+                  </ul>
                 </div>
-                <div class="section-three clearfix">
-                    <div class ="section-title ">
-                        <h2>HandPicked</h2>
-                    </div>
-                    <div class ="section-handpicked clearfix">
-                        <div class="handpicked-first">
-                         <ul>
-                             <li>
-                                    <img src ="images/handpicked-1.png" alt="handpicked-1" >
-                             </li>
-                             <li>
-                                 <div class=class="handpickedtwo">
-                                    <img src="images/hand-2.png" alt ="handpicked-2" >
-                                    <div class="image-text">
-                                            <!-- <span> Discount 30%</span>
-                                            Jewellery Product -->
-                                    </div>
-                                </div>
-                             </li>
-                         </ul>
+            <div class="handpicked-second">
+                <ul>
+                  <li>
+                    <img class="handpicked-large" src="images/handpicked-3.png" />
+                    <div class="overlay">
+                      <div class="image-text">
+                            Paris Hilton <span>COLLECTION</span>
                         </div>
-                        <div class="handpicked-right">
-                            <div class="handpicked-second">
-                                    <img src="images/handpicked-3.png">
-                            </div>
-                            <div class="handpicked-third">
-                                <ul>
-                                    <li>
-                                        <img src="images/handpicked-4.png">
-                                    </li>
-                                    <li>
-                                        <img src="images/handpicked-5.png">
-                                        <span>50%</span>
-                                        OFF
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                      <img class="plus" src="images/plus.png" alt="plus" />
+                      <button class="overlay-btn">SHOP NOW</button>
                     </div>
-                </div>
-                <div class="section-four clearfix">
-                    <div class ="section-title">
-                            <h2>Summer Collection</h2>
+                    
+                  </li>
+                </ul>
+              </div>
+          </div>
+              
+              <div class="handpicked-third">
+                <ul>
+                  <li>
+                    <img class="handpicked-small" src="images/handpicked-4.png"/>
+                    <div class="overlay">
+                      <div class="image-text-five"><span>50 %</span> OFF</div>
+                      <img class="plus" src="images/plus.png" alt="plus" />
+                      <button class="overlay-btn">SHOP NOW</button>
                     </div>
-                    <div class ="section-four-content clearfix">
-                        <ul class="collection-column">
-                            <li class="image-wrapper">
-                                <img src ="images/summercollection-1.png" alt="summercollection-1">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
-                            <li class="image-wrapper">
-                                <img src="images/summercollection-3.png" alt ="summercollection-2">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
-                            <li class="image-wrapper">
-                                <img src ="images/summercollection-5.png" alt="summercollection-1">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
-                            <li class="image-wrapper">
-                                <img src="images/summercollection-4.png" alt ="summercollection-2">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
-                            <li class="image-wrapper">
-                                <img src ="images/summercollection-2.png" alt="summercollection-1">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
-                            <li class="image-wrapper">
-                                <img src="images/summercollection-6.png" alt ="summercollection-2">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
+                  </li>
+                  <li>
+                    <img class="handpicked-small" src="images/handpicked-5.png" />
+                    <div class="overlay">
+                      <img class="plus" src="images/plus.png" alt="plus" />
+                      <button class="overlay-btn">SHOP NOW</button>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+        <div class="section-four clearfix">
+          <div class="section-title">
+            <span><h2>Summer Collection</h2></span>
+          </div>
+          <div class="section-four-content clearfix">
+            <ul class="collection-column">
+              <li class="image-wrapper">
+                <img
+                  class="light"
+                  src="images/summercollection-1.png"
+                  alt="summercollection-1"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+                <div class="circle">20 <sup>%</sup></div>
+              </li>
+              <li class="image-wrapper">
+                <img
+                  class="dark"
+                  src="images/summercollection-3.png"
+                  alt="summercollection-2"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+              </li>
+              <li class="image-wrapper">
+                <img
+                  src="images/summercollection-5.png"
+                  alt="summercollection-1"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+              </li>
+              <li class="image-wrapper">
+                <img
+                  src="images/summercollection-4.png"
+                  alt="summercollection-2"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+                <div class="circle">40 <sup>%</sup></div>
+              </li>
+              <li class="image-wrapper">
+                <img
+                  src="images/summercollection-2.png"
+                  alt="summercollection-1"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+              </li>
+              <li class="image-wrapper">
+                <img
+                  src="images/summercollection-6.png"
+                  alt="summercollection-2"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+              </li>
 
-                            <li class="image-wrapper">
-                                <img src ="images/summercollection-7.png" alt="summercollection-1">
-                                <button class="button  product-button_cart">+ Add to cart</button>
-                            </li>
-                                        <li class="image-wrapper">
-                                            <img src="images/summercollection-8.png" alt ="summercollection-2">
-                                            <button class="button  product-button_cart">+ Add to cart</button>
-                                        </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="section-five clearfix">
-                        <div class ="section-title">
-                                <h2>Our Brand</h2>
-                            </div>
-                        <div class ="section-five-content clearfix">
-                            <ul>
-                                <li><img src ="images/brand-1.png" alt="brand-1"></li>
-                                <li><img src="images/brand-2.png" alt ="brand-2"></li>
-                                <li><img src="images/brand-3.png" alt ="brand-2"></li>
-                                <li><img src="images/brand-4.png" alt ="brand-2"></li>
-                                <li><img src="images/brand-5.png" alt ="brand-2"></li>
-                                <li><img src="images/brand-6.png" alt ="brand-2"></li>
-                            </ul>
-                        </div>
-                </div>
-            </div>
-            <div class="section-six clearfix">
-                <div class="section-six wrapper">
-                    <div class ="section-title">
-                        <h2>Customers Says</h2>
-                    </div>
-                </div>
-               <div class ="section-six-content container clearfix">
-                    <div class="section-six-content wrapper">
-                        <div class ="six sleft">
-                            <img src="images/cust-1.png" alt="sandra">
-                                <div class="six-content cleft">
-                                    Sed ut perspiciatis  unde omnis iste natus error sit voluptatem accusantium doloremque  
-                                    <span class="name">Sandra Devi</span>
-                                    <span class="profession">Fashion Stylist</span>
-                                </div>
-                            </div>
-                            <div class ="six sright">
-                                <img src="images/cust-2.png" alt="sandra">
-                                <div class="six-content cright">
-                                    Sed ut perspiciatis  unde omnis iste natus error sit voluptatem accusantium doloremque  
-                                <span class="name">Shaheer Sheikh</span>
-                                <span class="profession">Designer</span>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
+              <li class="image-wrapper">
+                <img
+                  src="images/summercollection-7.png"
+                  alt="summercollection-1"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+              </li>
+              <li class="image-wrapper">
+                <img
+                  src="images/summercollection-8.png"
+                  alt="summercollection-2"
+                />
+                <button class="button  product-button_cart">
+                  + Add to cart
+                </button>
+                <div class="circle">40 <sup>%</sup></div>
+              </li>
+            </ul>
+          </div>
         </div>
-            
-        <div class="footer container ">
-            <div class="footer wrapper">
-                <div class="footer-top clearfix">
-                    <div class="footer-top-left">
-                        <ul>
-                            <li class="footer-list">
-                                <span>SHOPS</span>
-                                <ul>
-                                    <li><a href="">News In</a> </li>
-                                    <li><a href="">Women</a></li>
-                                    <li><a href="">Men</a></li>
-                                    <li><a href="">Shoes</a></li>
-                                    <li><a href="">Bags And Accessories</a></li>
-                                    <li><a href="">Top Brands</a></li>
-                                    <li><a href="">Sale & Special Offers</a></li>
-                                    <li><a href="">Lookbook</a></li>
-                                </ul>
-                            </li>
-                            <li class="footer-list">
-                                <span>INFORMATION</span>
-                                <ul>
-                                    <li><a href ="#">About Us</a></li>
-                                    <li><a href ="#">Customer Service</a></li>
-                                    <li><a href ="#">New Collection</a></li>
-                                    <li><a href ="#">Best sellers</a></li>
-                                    <li><a href ="#">Manufactures</a></li>
-                                    <li><a href ="#">Privacy policy</a></li>
-                                    <li><a href ="#">Condition</a></li>
-                                    <li><a href ="#">Blog</a></li>
-                                </ul>
-                            </li>
-                            <li class="footer-list">
-                            <span> CUSTOMER SERVICE</span>
-                                <ul>
-                                    <li><a href="#">Search Terms</a></li>
-                                    <li><a href="#">Advanced Seach</a></li>
-                                    <li><a href="#">Orders and Return</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">RSS</a></li>
-                                    <li><a href="#">Help & FAQs</a></li>
-                                    <li><a href="#">Consultant</a></li>
-                                    <li><a href="#">Store Locations</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-top-right">
-                        STAY CONNECTED
-                        <div class="icon">
-                                <a href="#"><img src="images/footer-fb.png" alt="facebook-icon">
-                                </a>
-                                <a href="#"><img src="images/footer-twitter.png" alt="twitter-icon">
-                                </a>
-                                <a href="#"><img src="images/footer-instagram.png" alt="instragam-icon">
-                                </a>
-                                <a href="#"><img src ="images/footer-pinterest.png" alt="pinterest-icon">
-                                </a>
-                                <a href="#"><img src="images/footer-feed.png" alt="feed">
-                                </a>
-                        </div>
-                        <div class="subscribe">
-                                SUBSCRIBE <span>in</span> OUR NEWS LETTER
-                                <div class="subscribe-btn">
-                                    <form>
-                                        <input placeholder="Enter Your Email Address" class="form__input" type="email">
-                                        <button class=" form-button">SUBSCRIBE</button>
-                                    </form>                  
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom clearfix">
-                    <hr class="horizontal-line">
-                    <p class="copyright">© 2015 Shopia Fashion Store Shopify.
-                    <br>All Rights Reserved. Ecommerce Software by Shopify.
-                    <br>Designed by MoccaLabs.com</p>
-                    <a href="#">
-                    <div class="arrow-up">
-                    </div>
-                    </a>
-                    <ul class="payments">
-                        <li class="payments-item">
-                            <img src="./images/visa.png" alt="Visa">
-                        </li>
-                        <li class="payments-item">
-                            <img src="./images/mastercard.png" alt="MasterCard">
-                        </li>
-                        <li class="payments-item">
-                            <img src="./images/third-icon.png" alt="American Express">
-                        </li>
-                        <li class="payments-item">
-                            <img src="./images/discover.png" alt="Discover">
-                        </li>
-                    </ul>
-                </div>
-            </div> 
+        <div class="section-five clearfix">
+          <div class="section-title"><h2>Our Brand</h2></div>
+          <div class="section-five-content clearfix">
+            <ul>
+              <li><img src="images/brand-1.png" alt="brand-1" /></li>
+              <li><img src="images/brand-2.png" alt="brand-2" /></li>
+              <li><img src="images/brand-3.png" alt="brand-2" /></li>
+              <li><img src="images/brand-4.png" alt="brand-2" /></li>
+              <li><img src="images/brand-5.png" alt="brand-2" /></li>
+              <li><img src="images/brand-6.png" alt="brand-2" /></li>
+            </ul>
+          </div>
         </div>
-    </body>
- </html>
+      </div>
+      <div class="section-six container">
+        <div class="section-six wrapper">
+          <div class="section-title"><h2>Customers Says</h2></div>
+        </div>
+        <div class="section-six-content  clearfix">
+          <div class="section-six-content wrapper">
+            <div class="six sleft">
+              <img src="images/cust-1.png" alt="sandra" />
+              <div class="six-content cleft">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque <span class="name">Sandra Devi</span>
+                <span class="profession">Fashion Stylist</span>
+              </div>
+            </div>
+            <div class="six sright">
+              <img src="images/cust-2.png" alt="sandra" />
+              <div class="six-content cright">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque <span class="name">Shaheer Sheikh</span>
+                <span class="profession">Designer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer container ">
+      <div class="footer wrapper">
+        <div class="footer-top clearfix">
+          <div class="footer-top-left">
+            <ul>
+              <li class="footer-list">
+                <span>SHOPS</span>
+                <ul>
+                  <li><a href="">News In</a></li>
+                  <li><a href="">Women</a></li>
+                  <li><a href="">Men</a></li>
+                  <li><a href="">Shoes</a></li>
+                  <li><a href="">Bags And Accessories</a></li>
+                  <li><a href="">Top Brands</a></li>
+                  <li><a href="">Sale & Special Offers</a></li>
+                  <li><a href="">Lookbook</a></li>
+                </ul>
+              </li>
+              <li class="footer-list">
+                <span>INFORMATION</span>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Customer Service</a></li>
+                  <li><a href="#">New Collection</a></li>
+                  <li><a href="#">Best sellers</a></li>
+                  <li><a href="#">Manufactures</a></li>
+                  <li><a href="#">Privacy policy</a></li>
+                  <li><a href="#">Condition</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="footer-list">
+                <span> CUSTOMER SERVICE</span>
+                <ul>
+                  <li><a href="#">Search Terms</a></li>
+                  <li><a href="#">Advanced Seach</a></li>
+                  <li><a href="#">Orders and Return</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">RSS</a></li>
+                  <li><a href="#">Help & FAQs</a></li>
+                  <li><a href="#">Consultant</a></li>
+                  <li><a href="#">Store Locations</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top-right">
+            STAY CONNECTED
+            <div class="icon">
+              <a href="#"
+                ><img src="images/footer-fb.png" alt="facebook-icon" />
+              </a>
+              <a href="#"
+                ><img src="images/footer-twitter.png" alt="twitter-icon" />
+              </a>
+              <a href="#"
+                ><img src="images/footer-instagram.png" alt="instragam-icon" />
+              </a>
+              <a href="#"
+                ><img src="images/footer-pinterest.png" alt="pinterest-icon" />
+              </a>
+              <a href="#"><img src="images/footer-feed.png" alt="feed" /> </a>
+            </div>
+            <div class="subscribe">
+              SUBSCRIBE <span>in</span> OUR NEWS LETTER
+              <div class="subscribe-btn">
+                <form>
+                  <input
+                    placeholder="Enter Your Email Address"
+                    class="form__input"
+                    type="email"
+                  />
+                  <button class=" form-button">SUBSCRIBE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom clearfix">
+          <hr class="horizontal-line" />
+          <p class="copyright">
+            © 2015 Shopia Fashion Store Shopify. <br />All Rights Reserved.
+            Ecommerce Software by Shopify. <br />Designed by MoccaLabs.com
+          </p>
+          <a href="#"> <div class="arrow-up"></div> </a>
+          <ul class="payments">
+            <li class="payments-item">
+              <img src="./images/visa.png" alt="Visa" />
+            </li>
+            <li class="payments-item">
+              <img src="./images/mastercard.png" alt="MasterCard" />
+            </li>
+            <li class="payments-item">
+              <img src="./images/third-icon.png" alt="American Express" />
+            </li>
+            <li class="payments-item">
+              <img src="./images/discover.png" alt="Discover" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/hamburger.js"></script>
+  </body>
+</html>

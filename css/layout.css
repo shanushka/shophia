@@ -1,111 +1,172 @@
 .header-top{
     background-color:#f2f2f2;
+    line-height: 28px;
+      
 }
 .wrapper{
     width:100%;
-
 }
-.headertop-right ul{
-display: none;
+/* .headertop-right ul{
+    display: none;
+} */
+.headertop-right li{
+    float:left;
+    background-image:url("../images/top-seperator.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    padding:0 10px ;
 }
+.headertop-right li:first-child{
+    background-image:none;
+  }
+.headertop-right li:last-child{
+    padding-right:0px;
+ }
 
+ .headertop-right li:hover{
+    background-image:none;
+    background:white;}
+  
 .headertop-left{
     float:left;
+    display:none;
     margin: 2px;
     width:150px;
-
 }
+
 .headertop-left span{
     padding:2px 19px 0 7px;
 }
 
 .headertop-right{
     float:right;
-    /* width:20px; */
-
 }
+
 .headertop-right img{
     width:18px;
     height:18px;
     margin: 2px 10px;
 }
-/* 
-.header-bottom.wrapper{
-    width:100%
-} */
 
 .headerbottom-left ul{
-    /* //width:30%; */
     display: none;
 }
 
-.headerbottom-left img{
+.hamburger-hidden{
+    position: relative;
+}
+.hamburger-hidden img{
     width:20px;
     height:20px;
     margin: 10px 10px;
     float:left;
 }
+
+.ham{
+    position: absolute;
+    left: 10px;
+    top:30px;
+    z-index: 200;
+    width:30%;
+    display:none;
+}
+
+.ham>li{
+    background-color: white;
+    
+    columns: black;
+    border-bottom: 1px solid black;
+    padding:8px 8px;
+}
 .shopia-logo {
-    width:17.674419%;
     display: block;
-    margin: 12px auto;
+    width:50%;
+    margin: 8px auto;
 }
 
 .headerbotttom-right{
     display:none;
 }
+
 .dropDown {
-    
     position: relative;
 }
 
-.dropDown button{
+.dropDown select{
     background-color: #000000;
     display: block;
     border:none;
-    line-height: 35px;
     width:100%;
+    padding: 8px 0;
 }
 
 .dropDown img{
     position: absolute;
     right:11px;
-    top:14px;
+    top:16px;
     height:4px;
     width:8px;
 }
+
+/*Body Starts here*/
 .carousel-image{
     position: relative;
 }
+
 .carousel-image img{
     object-fit: cover;
     width: 100%;
-    /* height: 100%; */
 }
+
 .sale{
     position: absolute;
-    top:30px;
+    top:20.575539%;
     right:39.0625%;
     width:18.958333%;
     border:2px solid white;
+    
     margin:0px auto;
-
 }
 
 .subsale{
     border:1px solid white;
-    width:85%;
-    margin:7px auto;
-    padding :25px 2px;
-
+    width:94.139194%;
+    margin:4px auto;
+    padding :4px 0px;
 }
+
+.sale-up{
+  text-align: center;
+  display: inline-block;
+  position: relative; 
+  width:100%
+}
+
+.sale-up:before,.sale-up:after{
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  bottom: 6px;
+  width: 13.33%;
+}
+
+.sale-up:before {
+    right: 60%;
+    margin-right: 15px;
+  }
+
+.sale-up:after {
+    left: 60%;
+    margin-left: 15px;
+  }
 
 .btn-shopnow{
     position: absolute;
-     bottom: 20px;
-    width:90px;
-    right:40.5%;
-    margin:0 auto;
+    bottom: 20px;
+    width:70px;
+    left:40%;
     display: block;
 }
 
@@ -113,13 +174,15 @@ display: none;
     background-color: #f09d66;
     border:none;
     width:100%;
-    line-height: 20px;
+}
+
+.btn-shop:hover{
+    opacity:0.8;
 }
 
 .section-two{
     margin:30px 0;
-   
-}
+   }
 
 .left,.right,.middle{
     padding:10px 0;
@@ -151,40 +214,107 @@ background-color: #d9bf8f;
 .section-three,.section-handpicked,.section-four,.section-four-content,.section-five,.section-five-content{
     width:100%;
 }
-.section-title h2{
-    /* width:50%; */
-    margin:40px auto;
+/* .section-handpicked img{
+    width:100%;
+} */
+.handpicked-large{
+    width:100%;
 
-    
 }
-.section-title h2:after,.section-title h2:before{
+.handpicked-small
+{
+    width:100%;
+}
+.handpicked-first li,.handpicked-third li{
+    padding-bottom:15px;
+  }
+
+.section-title h2{
+    margin:40px auto;
+    display: block;
+    width:80%;
+    position:relative;
+}
+.section-title h2:before{
     background : url('../images/diamond.png') no-repeat;
     width:20px;
     height:20px;
+    position:absolute;
+    top:43%;
     content : "";
-    display:inline-block;
-    /* padding: 0 20px; */
-    /* position: absolute; */
-
- 
-
+    display:block;
+    /* border-bottom: 1px solid grey; */
+    /* border-top: 1px solid grey; */
+    width:100px;
 }
-.collection-column img{
+.section-title:before{
+    border-bottom: 1px solid white;
+}
+.section-title h2:after{
+    background : url('../images/diamond.png') no-repeat;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:43%;
+    right:0;
+    content : "";
+    display:block;
+}
+.handpicked{
     width:100%;
 }
 
-
-/* .section-title::before{
-    content: url(../images/border-left.png);
+.section-handpicked li{
+    position:relative;
+}
+.overlay{
+    position:absolute;
+    width:89.141414%;
+    top:26px;
+    bottom:54px;
+    left:23px;
+    z-index:0;
+    border:3px solid white;
+}
+.handpicked-second{
+    position:relative;
 
 }
 
-.section-title::after{
-    content: url(../images/border-left.png);
+.image-text{
+    position:absolute;
+    left:56px;
+    top:290px;
+    width:225px;
+    z-index:10;
+}
+.plus{
+    position:absolute;
+    z-index:20;
+    display:none;
+    top:32.123167%; 
+    left:41.359773% ;
+    width:58px; 
+    height:62px;
+}
+.section-handpicked li:hover .overlay { background-color: rgba(0,0,0,0.2); border:none;} 
+.section-handpicked li:hover .overlay-btn {display:block;} 
+.section-handpicked li:hover .plus {display:block;} 
 
-} */
+.overlay-btn{
+    position:absolute;
+    display:none;
+    width:30.878187%;
+    bottom:22px;
+    left:36.050847%;
+    background-color: #f09d66;
+    border:none;
+    line-height: 42px;
+    z-index:20;
+}
 
-.section-handpicked img,.section-four-content img{
+
+.section-four-content img{
     width:100%;
   margin:5px 0;
 }
@@ -202,21 +332,75 @@ background-color: #d9bf8f;
     position: relative;
 
 }
+/* .light{
+    background-color: #f1f1f1;
+    opacity:0.4;
+} */
+
+.dark:hover{
+ opacity:0.5px;
+ background-color: black;
+
+}
+
+.circle{
+    position:absolute;
+    top:28px;
+    left:24px;
+    background-color:#feab12;
+    border-radius: 50%;
+    width:62px;
+    height:62px;
+}
+
+
 
 .product-button_cart{
-    background: url('../images/addtocart.png') no-repeat ;
+    /* background: url('../images/addtocart.png') no-repeat ; */
+    background-color:transparent;
+    width:66.225166%;
+    left:13.333333%;
+    height:44px;
+    line-height:44px;
     border:none;
-    height: 60px;
-    /* width:70%; */
-    width:82%;
-    left:40px;
     background-size: 100%;
     position: absolute;
     bottom: 8px;
     background: contain;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 44px solid black;
+
+
 
 color:white;
 }
+.product-button_cart:hover{
+    border-bottom: 44px solid #f09d66;
+}
+
+.handpicked-third li{
+    position:relative
+}
+
+.image-text-second{
+    position: absolute;
+    z-index:10;
+    top:11.69%;
+    left:27.6056%;
+    width:50%;
+    line-height: 32px;
+}
+
+.image-text-five{
+    position: absolute;
+    z-index:10;
+    top:35.162095%;
+    left:36.658354%;
+    width:30%;
+    line-height: 32px;
+}
+
 /* .three-left-top{
     position:relative;
 }
@@ -227,18 +411,19 @@ color:white;
     border:3px solid white;
 } */
 
-.section-five-content img{
+.section-five-content li{
     /* float:left; */
-    margin:0 150px;
+    margin:20px 80px;
 }
 /* .section-five-content ul{
     margin-right:40px 50px;
 } */
 .section-six-content{
     background-color: #d9bf8f;
+    width:100%;
 }
 .section-six img{
-    width:230px;
+    width:160px;
     padding:20px 0;
 }
 .six-content{
@@ -266,6 +451,7 @@ color:white;
 .icon img{
     padding: 0 12px 0 4px;
 }
+
 .subscribe-btn{
    margin-top:56px;
     border:1px solid #b4aca9;
@@ -275,7 +461,7 @@ color:white;
 width:60.003878%;
 background:transparent;
 border:none;
-padding:0 8px 0 22px;
+padding:0 8px 0 8px;
 line-height:40px;
 }
 .subscribe-btn button{
@@ -301,3 +487,4 @@ line-height:40px;
     content: "";
     display: table;
 }
+

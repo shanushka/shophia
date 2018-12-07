@@ -10,9 +10,9 @@ li {
 }
 .shopia-logo a{
     font-family:"Krinkes";
-    font-size: 71.724px;
+    /* font-size: 71.724px; */
+    font-size:40px;
     color: rgb(0, 0, 0);
-    line-height: 0.251;
 
 
 }
@@ -42,6 +42,7 @@ font-size:18px;
 
 .headerbottom-left a{
     font-family: 'Playfair Display', serif;
+    font-style:italic;
     font-size:18px;
     color:#454545;
 }
@@ -50,32 +51,122 @@ font-size:18px;
     color:#454545;
 
 }
+.dropDown select{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    color:white;
+    text-align:left;
+    padding-left:12px;
+}
 
 .subsale{
     /* padding:31px 0 33px 0; */
-    font-size:19px;
+    font-size: 8px;
+    /* line-height: 0.6; */
     color:white;
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
 }
 .sale-black{
-    font-size:59px;
+    font-size: 20px;
+    /* line-height: 0.2; */
     color:black;
     display:block;
+    font-weight: bold;
+
     /* line-height:92px; */
 }
 
 .sale-off{
-    font-size:33.5px;
+    font-size: 13px;
     color:black;
-}
+    font-weight: bold;
 
+}
+.btn-shop{
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.overlay-btn{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.image-text-second{
+    text-align:center;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+.image-text-second span{
+    font-size: 22px
+}
 .sec span{
-    font-size:30px;
+    font-size:22px;
     font-family: 'Lato:700', sans-serif;
 
 }
+.ham>li a{
+    font-size: 12px;
+    color:black;
+    font-style:italic;
+    font-family: 'Lato', sans-serif;
+}
+.image-text{
+  font-size: 30px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.image-text span{
+    font-size: 40px;
+    color:white;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Lato:400', sans-serif;
+    line-height: 60px;
 
+  }
+
+  .image-text-five{
+    font-size: 44px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+  }
+  .image-text-five span{
+    font-size: 36px;
+  }
+  .circle{
+      text-align: center;
+      font-size: 22.618px;
+      font-family: 'Lato', sans-serif;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 54px;
+
+
+  }
+  .circle sup{
+      font-size:12px;
+
+  }
+
+  .product-button_cart{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+  }
+.section-title{
+    font-family: 'Playfair Display', serif;
+    font-weight: '700';
+    font-style: italic;
+}
 .sec{
     font-size:14px;
     color:white;
@@ -83,7 +174,7 @@ font-size:18px;
 }
 
 .six-content{
-    font-size:18px;
+    font-size:12px;
     font-family: 'Playfair Display', serif;
     color:white;
     line-height: 1.667;
@@ -96,18 +187,24 @@ font-size:18px;
 
 }
 
+.cright{
+    text-align: left;
+}
+
 .name{
-    font-size: 30px;
+    font-size: 18px;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-style: italic;
-    line-height: 0.601;
+    line-height: 1;
     color:black;
   }
 
   .profession{
     font-size: 14px;
     font-weight: '400';
+    font-style: normal;
+
     font-family: 'Lato', sans-serif;
     color: rgb(127, 126, 126);
     font-weight: bold;
@@ -120,8 +217,9 @@ font-size:18px;
     font-family: 'Lato', sans-serif;
     color:white;
     line-height: 1.875;
-
   }
+
+
 .subscribe-btn{
     word-spacing: 4px;
 }
