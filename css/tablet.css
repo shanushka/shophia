@@ -1,171 +1,177 @@
-.headertop-right ul{
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 94%;
+  margin: 0 auto;
+}
+/* Header starts here*/
+.headertop-right ul {
   display: block;
 }
-.headertop-left{
-  display: block
+.headertop-left {
+  display: block;
 }
-.headertop-right 
-li{
-  float:left;
-  background-image:url("../images/top-seperator.png");
-  background-repeat:no-repeat;
+.headertop-right li {
+  float: left;
+  background-image: url('../images/top-seperator.png');
+  background-repeat: no-repeat;
   background-position: left;
-  padding:0 35px 0 32px;
+  padding: 0 35px 0 32px;
 }
-.bottom-right{
-  width:57.829457%;
-  float:right;
+.bottom-right {
+  width: 57.829457%;
+  float: right;
 }
 
-.shopia-logo{
-  float:left;
-  width:17.674419%;
-  line-height:128px;
+.shopia-logo {
+  float: left;
+  width: 17.674419%;
+  line-height: 128px;
 }
-.headerbotttom-right{
+.headerbotttom-right {
   display: block;
-  width:44.235925%;
-  float:right;
-  margin:47px 0 0 0 ;
+  width: 44.235925%;
+  float: right;
+  margin: 47px 0 0 0;
 }
-.hamburger-hidden img{
-  padding:47px ;
+.hamburger-hidden img {
+  padding: 47px 4px;
 }
-.social-icon{
-display:none;
+.social-icon {
+  display: none;
+}
 
+.dropDown {
+  width: 42%;
+  float: right;
+  margin: 3px 10px 0 0;
 }
 
-.dropDown{
-  width:40%;
-  float:right;
-    margin:3px 10px 0 0;
+.headertop-right img {
+  display: none;
+}
+/* Body Starts Here */
+.subsale {
+  padding: 20px 0;
+}
 
- }
-
-.headertop-right img{
-  display:none;
+.sale-black {
+  font-size: 48px;
 }
-.subsale{
-  padding:20px 0;
+.subsale {
+  font-size: 16px;
+  padding: 25px 0px;
 }
-.sale-black{
-  font-size:48px;
-}
-.subsale{
-  font-size:16px;
-  padding :25px 0px;
-}
-.sale-off{
-  line-height:32px;
+.sale-off {
+  line-height: 32px;
   font-size: 28px;
 }
-.btn-shop{
-  font-size: 20px;
+.btn-shop {
+  font-size: 18px;
+  line-height: 32px;
 }
-.btn-shopnow{
-  width:17%;
-  position: absolute;
-  top:300px;
-  line-height:53px;
-  left:43%;
+.btn-shopnow {
+  margin: 10% 6.6%;
 }
-.name{
+.name {
   font-size: 30px;
 }
-.six-content{
-  font-size:18px;
+.six-content {
+  font-size: 18px;
 }
-.shopia-logo a{
-  font-size:4.48275em;
+.shopia-logo a {
+  font-size: 4.48275em;
 }
-.cright{
+.cright {
   text-align: right;
 }
-.btn-shop{
-  font-size: 24px;
-}
-.sec span{
-  font-size:30px;
+
+.sec span {
+  font-size: 30px;
 }
 
-.section-title h2{
-  width:50%;
-
+.section-title h2 {
+  width: 50%;
 }
-.handpicked-left{
-  width:100%;
-}
-
-.handpicked-first{
-  width:45.308924%;
-  float:left;
-}
-.handpicked-second{
-  width:52.631579%;
-  float:right;
+.handpicked-left {
+  width: 100%;
 }
 
-.handpicked-third{
-  width:46%;
-  
+.handpicked-first {
+  width: 45.308924%;
+  float: left;
+}
+.handpicked-second {
+  width: 52.631579%;
+  float: right;
+  padding-bottom: 10px;
+}
+.handpicked-third {
+  width: 49%;
 }
 
-
-.handpicked-third li{
-float:left;
+.handpicked-third li {
+  float: left;
+}
+.handpicked-third li:last-child {
+  padding-left: 16px;
+}
+.collection-column li {
+  width: 45%;
+  float: left;
+  padding: 8px 16px;
+}
+.overlay-images {
+  bottom: 17px;
+  width: 92.2%;
+  left: 16px;
+  top: 13px;
+}
+.product-button_cart {
+  bottom: 0;
 }
 
-.collection-column li{
-  width:45%;
-  float:left;
-  padding:8px 16px;
-  
-  }
-
-  .product-button_cart{
-    bottom:17px;
-  }
-.cright{
+.cright {
   text-align: left;
 }
-  
-.section-five{
-  padding-top:47px;
+
+.section-five {
+  padding-top: 47px;
 }
-.section-five-content li{
+.section-five-content li {
   float: left;
   padding: 30px 30px;
-  width:15%;
-  margin :0px;
-
+  width: 15%;
+  margin: 0px;
 }
-.six img{
-  padding:37px 24px 8px 40px;
+.six img {
+  padding: 37px 24px 8px 40px;
 }
-.six-content{
-  width:60%;
-  padding:40px 40px 0 8px ;
-
-
+.six-content {
+  width: 60%;
+  padding: 40px 40px 0 8px;
 }
 
-.footer-top,.footer-top-left{
-  width:90%;
+/*footer-starts here*/
+.footer-top,
+.footer-top-left {
+  width: 90%;
 }
 
-.footer-list{
-  float:left;
-  display:block;
-  width:28%;
-  padding:30px 16px;
-}
-.footer-top-right{
-  width:100%;
+.footer-list {
+  float: left;
   display: block;
-  float:left
- } 
- .footer-bottom{
-  padding-top:90px;
-  display:block;
-} 
+  width: 28%;
+  padding: 30px 16px;
+}
+.footer-top-right {
+  width: 100%;
+  display: block;
+  float: left;
+}
+.footer-bottom {
+  padding-top: 90px;
+  display: block;
+}

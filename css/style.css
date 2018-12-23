@@ -1,247 +1,228 @@
 @font-face {
-    font-family:"Krinkes";
-    src: url("../Krinkes/KrinkesDecorPERSONAL.ttf") format("truetype");
-  }
-  
+  font-family: 'Krinkes';
+  src: url('../Krinkes/KrinkesDecorPERSONAL.ttf') format('truetype');
+}
 
 li {
-    list-style:none;
-    
+  list-style: none;
 }
-.shopia-logo a{
-    font-family:"Krinkes";
-    /* font-size: 71.724px; */
-    font-size:40px;
-    color: rgb(0, 0, 0);
-
-
+.shopia-logo a {
+  font-family: 'Krinkes';
+  font-size: 40px;
+  color: rgb(0, 0, 0);
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-.subsale li{
-    text-align:center;
+.subsale li {
+  text-align: center;
 }
 
-.footer a{
-color:#5a5a5a;
-font-size:18px;
+.footer a {
+  color: #5a5a5a;
+  font-size: 18px;
 }
 
-.section-title{
-    text-align: center;
+.section-title {
+  text-align: center;
+}
+/* Header starts here */
+.headertop-right a,
+.headertop-left a {
+  font-family: 'Lato:400', sans-serif;
+  font-size: 10px;
+  color: #454545;
 }
 
-.headertop-right a,.headertop-left{
-    font-family: 'Lato:400', sans-serif;
-    font-size:10px;
-    color:#454545;
-
+.headerbottom-left a {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #454545;
 }
-
-.headerbottom-left a{
-    font-family: 'Playfair Display', serif;
-    font-style:italic;
-    font-size:18px;
-    color:#454545;
+.shopia-logo a {
+  color: #454545;
 }
-.shopia-logo a{
-   
-    color:#454545;
-
+.dropDown select {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  padding-left: 12px;
 }
-.dropDown select{
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    color:white;
-    text-align:left;
-    padding-left:12px;
-}
+/* Body starts here */
 
-.subsale{
-    /* padding:31px 0 33px 0; */
-    font-size: 8px;
-    /* line-height: 0.6; */
-    color:white;
-    font-family: 'Lato', sans-serif;
+.subsale {
+  font-size: 8px;
+  color: white;
+  font-family: 'Lato', sans-serif;
 }
-.sale-black{
-    font-size: 20px;
-    /* line-height: 0.2; */
-    color:black;
-    display:block;
-    font-weight: bold;
-
-    /* line-height:92px; */
+.sale-black {
+  font-size: 20px;
+  color: black;
+  display: block;
+  font-weight: bold;
 }
 
-.sale-off{
-    font-size: 13px;
-    color:black;
-    font-weight: bold;
-
+.sale-off {
+  font-size: 13px;
+  color: black;
+  font-weight: bold;
 }
-.btn-shop{
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
+.btn-shop {
+  font-size: 9px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
-.overlay-btn{
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(255, 255, 255);
+.overlay-btn {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
 }
-.image-text-second{
-    text-align:center;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+.image-text-second {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
 }
-.image-text-second span{
-    font-size: 22px
+.image-text-second span {
+  font-size: 22px;
 }
-.sec span{
-    font-size:22px;
-    font-family: 'Lato:700', sans-serif;
-
+.sec span {
+  font-size: 22px;
+  font-family: 'Lato:700', sans-serif;
 }
-.ham>li a{
-    font-size: 12px;
-    color:black;
-    font-style:italic;
-    font-family: 'Lato', sans-serif;
+.ham > li a {
+  font-size: 12px;
+  color: black;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
 }
-.image-text{
+.image-text {
   font-size: 30px;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-style: italic;
 }
-.image-text span{
-    font-size: 40px;
-    color:white;
-    font-weight: bold;
-    font-style: normal;
-    font-family: 'Lato:400', sans-serif;
-    line-height: 60px;
-
-  }
-
-  .image-text-five{
-    font-size: 44px;
-    text-align: center;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
-  }
-  .image-text-five span{
-    font-size: 36px;
-  }
-  .circle{
-      text-align: center;
-      font-size: 22.618px;
-      font-family: 'Lato', sans-serif;
-      color: rgb(255, 255, 255);
-      font-weight: bold;
-      line-height: 54px;
-
-
-  }
-  .circle sup{
-      font-size:12px;
-
-  }
-
-  .product-button_cart{
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-
-  }
-.section-title{
-    font-family: 'Playfair Display', serif;
-    font-weight: '700';
-    font-style: italic;
-}
-.sec{
-    font-size:14px;
-    color:white;
-    font-family: 'Lato:400', sans-serif;
+.image-text span {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Lato:400', sans-serif;
+  line-height: 60px;
 }
 
-.six-content{
-    font-size:12px;
-    font-family: 'Playfair Display', serif;
-    color:white;
-    line-height: 1.667;
-    text-align: right;
+.image-text-five {
+  font-size: 44px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+}
+.image-text-five span {
+  font-size: 36px;
+}
+.circle {
+  text-align: center;
+  font-size: 22.618px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 54px;
+}
+.circle sup {
+  font-size: 12px;
 }
 
-.cleft{
-    text-align: left;
-    font-style: italic;
-
+.product-button_cart {
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: '700';
+  font-style: italic;
+}
+.sec {
+  font-size: 14px;
+  color: white;
+  font-family: 'Lato:400', sans-serif;
 }
 
-.cright{
-    text-align: left;
+.six-content {
+  font-size: 12px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  line-height: 1.667;
+  text-align: right;
 }
 
-.name{
-    font-size: 18px;
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 1;
-    color:black;
-  }
-
-  .profession{
-    font-size: 14px;
-    font-weight: '400';
-    font-style: normal;
-
-    font-family: 'Lato', sans-serif;
-    color: rgb(127, 126, 126);
-    font-weight: bold;
-    line-height: 2.141;
-  }
-
-  .footer-list span,.footer-top-right{
-    font-size: 16px;
-    font-weight: '400';
-    font-family: 'Lato', sans-serif;
-    color:white;
-    line-height: 1.875;
-  }
-
-
-.subscribe-btn{
-    word-spacing: 4px;
+.cleft {
+  text-align: left;
+  font-style: italic;
 }
 
-.subscribe-btn button{
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(255, 255, 255);
-    line-height: 2.501;
+.cright {
+  text-align: right;
 }
-  .footer-top-right span{
-      font-style: italic;
-  }
 
-  .footer-list a{
-    font-size: 16px;
-    line-height: 1.875;
-  }
+.name {
+  font-size: 18px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  color: black;
+}
 
-  .copyright{
-    font-size: 11px;
-    font-family: 'Lato', sans-serif;
-    color: rgb(54, 54, 54);
-    line-height: 1.636;
-  }
+.profession {
+  font-size: 14px;
+  font-weight: '400';
+  font-style: normal;
+  font-family: 'Lato', sans-serif;
+  color: rgb(127, 126, 126);
+  font-weight: bold;
+  line-height: 2.141;
+}
+
+/* Footer starts here */
+
+.footer-list span,
+.footer-top-right {
+  font-size: 16px;
+  font-weight: '400';
+  font-family: 'Lato', sans-serif;
+  color: white;
+  line-height: 1.875;
+}
+
+.subscribe-btn {
+  word-spacing: 4px;
+}
+
+.subscribe-btn button {
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 2.501;
+}
+.footer-top-right span {
+  font-style: italic;
+}
+
+.footer-list a {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.copyright {
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(54, 54, 54);
+  line-height: 1.636;
+}

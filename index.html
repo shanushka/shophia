@@ -6,7 +6,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet.css"/>
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="css/media.css" />
+    <link rel="stylesheet" media="screen and (min-width: 1170px)" href="css/media.css" /> 
+    <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/slider.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400i" rel="stylesheet" />
@@ -17,7 +19,7 @@
       <div class="header-top container">
         <div class="header-tops wrapper clearfix">
           <div class="headertop-left ">
-            <span><img src="images/phone-icon.png"/></span> Call +001 555 801
+            <span><img src="images/phone-icon.png"/></span><a href="tel:+001555801"> Call +001 555 801 </a>
           </div>
           <div class="headertop-right">
             <ul>
@@ -56,24 +58,16 @@
               <div class="social-icon">
                 <ul>
                   <li>
-                    <a href="#"
-                      ><img alt="facebook-icon" src="images/fb-header.png"
-                    /></a>
+                    <a href="#"><img alt="facebook-icon" src='images/fb-header.png'/></a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><img alt="twiiter-icon" src="images/twitter.png"
-                    /></a>
+                    <a href="#"><img alt="twiiter-icon" src="images/twitter.png"/></a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><img alt="pinterest-icon" src="images/pininterest.png"
-                    /></a>
+                    <a href="#"><img alt="pinterest-icon" src="images/pininterest.png"/></a>
                   </li>
                   <li>
-                    <a href="#"
-                      ><img alt="instragam-icon" src="images/instagram.png"
-                    /></a>
+                    <a href="#"><img alt="instragam-icon" src="images/instagram.png"/></a>
                   </li>
                 </ul>
               </div>
@@ -84,7 +78,6 @@
                   <option value="2">EURO</option>
                   <option value="3">YEN</option>
                 </select>
-                <!-- <img src="images/dropdownBtn.png" /> -->
               </div>
             </div>
           </div>
@@ -93,23 +86,26 @@
     </div>
 
     <div class="main-body container">
-      <div class="section-one ">
-        <!-- <div class="section-ones container clearfix"> -->
-        <div class="carousel-image clearfix">
+      <div class="section-one contain">
+        <div class="carousel-image ">
           <img src="images/top-background.png" />
-          <div class="sale clearfix">
-            <div class="subsale ">
-              <ul>
-                <li>MID-SEASON</li>
-                <li><span class="sale-black">SALE</span></li>
-                <li><span class="sale-up">UP TO</span></li>
-                <li><span class="sale-off">50% OFF</span></li>
-              </ul>
+            <div class = "center">
+              <div class="sale">
+              <div class="subsale ">
+                <ul>
+                  <li>MID-SEASON</li>
+                  <li><span class="sale-black">SALE</span></li>
+                  <li><span class="sale-up">UP TO</span></li>
+                  <li><span class="sale-off">50% OFF</span></li>
+                </ul>
+              </div>
+              </div>
+              <div class="btn-shopnow ">
+                <button class="btn-shop">SHOP NOW</button>
+              </div>
             </div>
-          </div>
-          <div class="btn-shopnow clearfix">
-            <button class="btn-shop">SHOP NOW</button>
-          </div>
+          <img src="images/top-background.png" class="slider_image"/>
+          <img src="images/top-background.png" class="slider_image"/>
         </div>
       </div>
 
@@ -143,7 +139,7 @@
         </div>
         <div class="section-three clearfix">
           <div class="section-title "><h2>HandPicked</h2></div>
-            <div class="section-handpicked clearfix">
+             <div class="section-handpicked clearfix">
               <div class="handpicked-left">
                 <div class="handpicked-first">
                   <ul>
@@ -166,8 +162,8 @@
                     </li>
                   </ul>
                 </div>
-            <div class="handpicked-second">
-                <ul>
+                <div class="handpicked-second">
+                  <ul>
                   <li>
                     <img class="handpicked-large" src="images/handpicked-3.png" />
                     <div class="overlay">
@@ -179,11 +175,11 @@
                     </div>
                     
                   </li>
-                </ul>
+                  </ul>
+                </div>
               </div>
-          </div>
               
-              <div class="handpicked-third">
+             <div class="handpicked-third">
                 <ul>
                   <li>
                     <img class="handpicked-small" src="images/handpicked-4.png"/>
@@ -204,94 +200,84 @@
               </div>
           </div>
         </div>
-        <div class="section-four clearfix">
+         <div class="section-four clearfix">
           <div class="section-title">
             <span><h2>Summer Collection</h2></span>
           </div>
           <div class="section-four-content clearfix">
             <ul class="collection-column">
               <li class="image-wrapper">
-                <img
-                  class="light"
-                  src="images/summercollection-1.png"
-                  alt="summercollection-1"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
-                <div class="circle">20 <sup>%</sup></div>
+                <img class="light" src="images/summercollection-1.png" alt="summercollection-1"/>
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                   + Add to cart
+                  </button>
+                  <div class="circle">20 <sup>%</sup></div>
+                </div>
               </li>
               <li class="image-wrapper">
-                <img
-                  class="dark"
-                  src="images/summercollection-3.png"
-                  alt="summercollection-2"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
+                <img src="images/summercollection-3.png" alt="summercollection-2"/>
+                <div class = "overlay-images">
+                    <button class="button  product-button_cart">
+                    + Add to cart
+                    </button>
+                </div>
               </li>
               <li class="image-wrapper">
-                <img
-                  src="images/summercollection-5.png"
-                  alt="summercollection-1"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
+                <img src="images/summercollection-5.png" alt="summercollection-1"/>
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                    + Add to cart
+                  </button>
+                </div>
               </li>
               <li class="image-wrapper">
-                <img
-                  src="images/summercollection-4.png"
-                  alt="summercollection-2"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
-                <div class="circle">40 <sup>%</sup></div>
+                <img src="images/summercollection-4.png" alt="summercollection-2" />
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                    + Add to cart
+                  </button>
+                  <div class="circle">40 <sup>%</sup></div>
+                </div>
               </li>
               <li class="image-wrapper">
-                <img
-                  src="images/summercollection-2.png"
-                  alt="summercollection-1"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
+                <img src="images/summercollection-2.png" alt="summercollection-1"/>
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                    + Add to cart
+                  </button>
+                </div>
               </li>
               <li class="image-wrapper">
-                <img
-                  src="images/summercollection-6.png"
-                  alt="summercollection-2"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
+                <img src="images/summercollection-6.png" alt="summercollection-2" />
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                    + Add to cart
+                  </button>
+                </div>
               </li>
 
               <li class="image-wrapper">
-                <img
-                  src="images/summercollection-7.png"
-                  alt="summercollection-1"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
+                <img src="images/summercollection-7.png" alt="summercollection-1" />
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                    + Add to cart
+                  </button>
+                </div>
               </li>
               <li class="image-wrapper">
-                <img
-                  src="images/summercollection-8.png"
-                  alt="summercollection-2"
-                />
-                <button class="button  product-button_cart">
-                  + Add to cart
-                </button>
-                <div class="circle">40 <sup>%</sup></div>
+                <img src="images/summercollection-8.png" alt="summercollection-2"/>
+                <div class = "overlay-images">
+                  <button class="button  product-button_cart">
+                    + Add to cart
+                  </button>
+                  <div class="circle">40 <sup>%</sup></div>
+                </div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="section-five clearfix">
+         <div class="section-five clearfix">
           <div class="section-title"><h2>Our Brand</h2></div>
           <div class="section-five-content clearfix">
             <ul>
@@ -304,7 +290,7 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> 
       <div class="section-six container">
         <div class="section-six wrapper">
           <div class="section-title"><h2>Customers Says</h2></div>
@@ -396,7 +382,7 @@
               <a href="#"><img src="images/footer-feed.png" alt="feed" /> </a>
             </div>
             <div class="subscribe">
-              SUBSCRIBE <span>in</span> OUR NEWS LETTER
+              SUBSCRIBE <span> in </span> OUR NEWS LETTER
               <div class="subscribe-btn">
                 <form>
                   <input
@@ -432,9 +418,19 @@
             </li>
           </ul>
         </div>
+
       </div>
     </div>
+    <button onclick="topFunction()" class="button" id="scroll"></button>
 
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/scrollUp.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script>
+      var carousel = new Carousel('carousel-image','contain');
+      carousel.init();
+    </script>
+  
+
   </body>
 </html>
