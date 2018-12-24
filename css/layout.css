@@ -85,7 +85,6 @@
 
 .ham > li {
   background-color: white;
-  columns: black;
   border-bottom: 1px solid black;
   padding: 8px 8px;
 }
@@ -93,6 +92,7 @@
   display: block;
   width: 50%;
   margin: 8px auto;
+  text-align: center;
 }
 
 .headerbotttom-right {
@@ -252,28 +252,28 @@
   width: 80%;
   position: relative;
 }
-.section-title h2:before {
+h2.background span:before {
   background: url('../images/diamond.png') no-repeat;
   width: 20px;
   height: 20px;
+  background-position: right;
   position: absolute;
-  top: 43%;
+  left: 5%;
+  top: 30%;
   content: '';
   display: block;
-  /* border-bottom: 1px solid grey; */
-  /* border-top: 1px solid grey; */
-  width: 100px;
 }
 .section-title:before {
   border-bottom: 1px solid white;
 }
-.section-title h2:after {
+h2.background span:after {
   background: url('../images/diamond.png') no-repeat;
   width: 20px;
   height: 20px;
   position: absolute;
-  top: 43%;
-  right: 0;
+  background-position: right;
+  left: 83%;
+  top: 30%;
   content: '';
   display: block;
 }
@@ -372,7 +372,6 @@
   position: absolute;
   z-index: 10;
   bottom: 0;
-  background: contain;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   border-bottom: 44px solid black;

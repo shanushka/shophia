@@ -14,7 +14,12 @@
 }
 
 .headertop-right {
-  width: 38.837209%;
+  width: 40.837209%;
+}
+
+.handpicked-third li {
+  float: left;
+  width: 100%;
 }
 
 .headerbottom-left ul {
@@ -58,7 +63,7 @@
 }
 
 .social-icon {
-  width: 56.666667%;
+  width: 58.666667%;
   float: left;
   display: block;
 }
@@ -137,13 +142,37 @@
 .sale-off {
   font-size: 32px;
 }
-.btn-shopnow {
-  /* width:14.651163%; */
-  /* position: absolute; */
-  /* margin : 53px 35px; */
-  /* top:470px;
-  left:43.75%; */
+h2.background {
+  position: relative;
+  z-index: 1;
 }
+h2.background span:before {
+  left: 35%;
+  top: 43%;
+}
+h2.background span:after {
+  left: 63%;
+  top: 43%;
+}
+h2.background span {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: #fff;
+  padding: 0 11.662403%;
+}
+
+h2.background:before {
+  border-top: 2px solid #dfdfdf;
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
 .btn-shop {
   line-height: 53px;
 }
@@ -193,20 +222,8 @@
   font-size: 30px;
 }
 
-/* .section-title{
-  width: 100%;
-  text-align: center;
-  border-bottom: 1px solid #000;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-}
-
-.section-title h2{
-  background: #fff;
-  padding: 0 10px;
-} */
 .section-title h2 {
-  width: 29.922481%;
+  width: 100%;
 }
 .sec {
   width: 33.333333%;
@@ -326,6 +343,9 @@
 }
 .profession {
   padding-top: 25px;
+}
+.subscribe {
+  width: 100%;
 }
 
 .footer-top {

@@ -9,7 +9,7 @@
 
 .carousel-image {
   width: 4320px;
-  z-index: 10px;
+  z-index: 10;
   position: absolute;
 }
 

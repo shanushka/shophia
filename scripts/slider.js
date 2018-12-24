@@ -28,7 +28,6 @@ function Carousel(elementClass, container) {
   var dx = 1;
   var speed = 10;
   var sliderInterval;
-  var sliderHold;
   var width = container.offsetWidth;
   var currentImage = 0;
 
@@ -44,7 +43,7 @@ function Carousel(elementClass, container) {
   };
 
   function animate() {
-    var secondLast = allImages.length - 1;
+    var secondLast = allImages.length - 2;
     slider.style.left = '-' + x + 'px';
     if (x >= width * secondLast) {
       dx = -1;
@@ -72,5 +71,9 @@ function Carousel(elementClass, container) {
         bubble.classList.remove('active');
       }
     });
+  }
+  console.log(container.offsetWidth);
+  if (container.offsetWidth >= 1440) {
+    this.init();
   }
 }

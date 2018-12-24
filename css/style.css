@@ -145,7 +145,6 @@ a {
 }
 .section-title {
   font-family: 'Playfair Display', serif;
-  font-weight: '700';
   font-style: italic;
 }
 .sec {
@@ -182,7 +181,6 @@ a {
 
 .profession {
   font-size: 14px;
-  font-weight: '400';
   font-style: normal;
   font-family: 'Lato', sans-serif;
   color: rgb(127, 126, 126);
@@ -195,7 +193,6 @@ a {
 .footer-list span,
 .footer-top-right {
   font-size: 16px;
-  font-weight: '400';
   font-family: 'Lato', sans-serif;
   color: white;
   line-height: 1.875;
