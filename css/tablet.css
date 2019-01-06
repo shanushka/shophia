@@ -13,6 +13,10 @@
 .headertop-left {
   display: block;
 }
+
+.ham {
+  top: 90px;
+}
 .headertop-right li {
   float: left;
   background-image: url('../images/top-seperator.png');

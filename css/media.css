@@ -1,14 +1,7 @@
-.container {
-  width: 100%;
-}
-
-.headertop-left {
-  display: block;
-}
 .wrapper {
   max-width: 80.625em;
-  margin: 0 auto;
 }
+/* Header starts here */
 .header-top {
   line-height: 48px;
 }
@@ -45,21 +38,14 @@
 .headerbottom-left a:hover {
   text-decoration: underline;
 }
+
 .bottom-right {
   width: 57.829457%;
   float: right;
 }
 
 .shopia-logo {
-  float: left;
   width: 17.674419%;
-  line-height: 128px;
-}
-.headerbotttom-right {
-  display: block;
-  width: 44.235925%;
-  float: right;
-  margin: 47px 0 0 0;
 }
 
 .social-icon {
@@ -70,6 +56,7 @@
 
 .social-icon li {
   padding-left: 12px;
+  float: left;
 }
 
 .social-icon li:hover {
@@ -81,15 +68,13 @@
 }
 .dropDown {
   width: 27.272727%;
-  float: right;
   margin: 3px 0 0 0;
 }
+
 .hamburger-hidden img {
   display: none;
 }
-.social-icon li {
-  float: left;
-}
+
 .hamburger {
   position: relative;
 }
@@ -208,18 +193,9 @@ h2.background:before {
 .six-content {
   font-size: 18px;
 }
-.shopia-logo a {
-  font-size: 4.48275em;
-}
-.cright {
-  text-align: right;
-}
 
 .btn-shop {
   font-size: 24px;
-}
-.sec span {
-  font-size: 30px;
 }
 
 .section-title h2 {
@@ -290,7 +266,6 @@ h2.background:before {
 
 .collection-column li {
   width: 23.333333%;
-  float: left;
   padding: 8px 9px;
 }
 
@@ -299,15 +274,9 @@ h2.background:before {
   width: 94.42%;
 }
 /*section-five*/
-
-.section-five {
-  padding-top: 47px;
-}
 .section-five-content li {
-  float: left;
   padding: 0 30px;
   width: 11.782946%;
-  margin: 0px;
 }
 
 .section-five-content ul {
@@ -325,10 +294,15 @@ h2.background:before {
   width: 260px;
   padding: 37px 0;
 }
+.sright img {
+  float:right;
+}
 .sleft {
   float: left;
 }
-
+.cright{
+  text-align: right;
+}
 .sright {
   float: right;
 }
@@ -371,10 +345,6 @@ h2.background:before {
 }
 .subscribe-btn input {
   padding: 0 8px 0 22px;
-}
-.footer-bottom {
-  padding-top: 90px;
-  display: block;
 }
 
 .icon {
