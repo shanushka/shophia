@@ -120,20 +120,76 @@
 }
 
 /*Body Starts here*/
-.carousel-image {
+.contain {
+  width: 100%;
+  padding-bottom:44.59%;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 0;
   position: relative;
 }
 
+.carousel-image {
+  width: 300%;
+  height:100%;
+  z-index: 10;
+  position: absolute;
+}
+
 .carousel-image img {
-  object-fit: cover;
-  width: 100%;
+  float: left;
+  width: 33.333333%;
+  height:100%;
+  display: block;
+}
+
+.bottom {
+  width: 70px;
+  position: absolute;
+  z-index: 20;
+  left: 45.916667%;
+  bottom: 12px;
+}
+
+.bubble {
+  margin: 0 2px;
+  float: left;
+  transition: opacity 0.1s linear;
+}
+
+.bubble {
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-bottom-color: #b2b2b2;
+  position: relative;
+  top: -4px;
+}
+.bubble:after {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 4px;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: #b2b2b2;
+}
+.slider_image {
+  display: block;
+}
+.active {
+  border-bottom-color: black;
+}
+.active:after {
+  border-top-color: black;
 }
 
 .center {
   position: absolute;
   top: 20.575539%;
-  right: 38.527131%;
-  width: 18.958333%;
+  left: 13.027131%;
+  width: 7.458333%;
 }
 
 .sale {

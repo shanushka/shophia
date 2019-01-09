@@ -26,9 +26,8 @@ function Carousel(elementClass, container) {
 
   var x = 0;
   var dx = 1;
-  var speed = 10;
+  var speed = 1;
   var sliderInterval;
-  var width = container.offsetWidth;
   var currentImage = 0;
 
   this.init = function() {
@@ -43,6 +42,7 @@ function Carousel(elementClass, container) {
   };
 
   function animate() {
+    var width = container.offsetWidth;
     var secondLast = allImages.length - 2;
     slider.style.left = '-' + x + 'px';
     if (x >= width * secondLast) {
@@ -72,8 +72,6 @@ function Carousel(elementClass, container) {
       }
     });
   }
-  console.log(container.offsetWidth);
-  if (container.offsetWidth >= 1440) {
     this.init();
-  }
+  
 }
